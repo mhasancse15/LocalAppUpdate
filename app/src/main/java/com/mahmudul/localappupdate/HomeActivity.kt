@@ -81,7 +81,7 @@ class HomeActivity : AppCompatActivity() {
     private fun downloadTask() {
         val downloadApk = DownloadApp(this@HomeActivity)
         downloadApk.startDownloadingApk(
-            "",
+            "https://github.com/mhasancse15/LocalAppUpdate/blob/main/app/release/app-release.apk?raw=true",
             "Update 2.0"
         )
     }
